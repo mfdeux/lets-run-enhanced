@@ -1,0 +1,297 @@
+.previewIcon {
+  float:left;
+  cursor:pointer;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 5px
+}
+
+.previewIcon:hover {
+  background-color: rgba(0, 139, 255, 0.31);
+}
+
+.viewPost {
+  padding: 3px 5px 3px 6px;
+}
+
+.hidePost {
+  padding: 5px 4px 5px 3px;
+}
+
+.row {
+  padding: 5px;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+
+.page_content {
+  margin-top: 20px !important;
+}
+
+
+.pagination {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.header-logo-dreams {
+  bottom: 33px !important;
+}
+
+.header-logo {
+  bottom: 28px !important;
+}
+
+.thedescription, .subforums, .quicknav {
+  display: none !important;
+}
+
+
+
+.post .timestamp {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.row.lock_post {
+  background-color: #fff !important;
+}
+
+.row.lock_post * {
+  display: none;
+}
+
+li .subject_line {
+  font-weight: normal !important;
+  font-size: large !important;
+  /*float: left !important;*/
+}
+
+.flat_read_common {
+  display: none !important
+}
+
+.in_reply_to {
+  display: none;
+}
+
+.post_information {
+  display: block !important;
+}
+
+.post .author {
+  margin-right: 5px;
+}
+
+.author {
+  color: rgb(136, 136, 136);
+  float: left !important;
+  min-width: 0px !important;
+}
+
+.post .author {
+  color: black;
+  font-weight: bold;
+}
+
+.post_text {
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+
+.subject_line {
+  width: calc(100%) !important;
+}
+
+.post {
+  width: calc(100% - 30px);
+}
+
+.post .subject {
+  background-color: #EDEDED !important;
+}
+
+.reply {
+  float: right;
+  font-size: smaller;
+}
+
+
+
+
+
+
+
+/* JRT's design */
+.threads_container .title {
+  width: calc(75%);
+  float: left;
+  margin-left: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.threads_container .title a {
+  max-width: calc(50%);
+}
+
+.threads_container .post_author {
+  font-size: small;
+  margin-left: 20px;
+}
+
+.threads_container .timestamp {
+  float: left;
+  text-align: left;
+  color: black;
+  font-style: normal;
+}
+
+.threads_container .post_count {
+  float: left;
+  text-align: left;
+}
+
+.threads_container .header {
+  font-weight: bold !important;
+  font-size: small !important;
+  color: black;
+}
+
+.threads_container .row.header {
+  background-color: #E1E1E1 !important;
+  height: 35px;
+  padding-top: 6px;
+}
+
+.threads_container .thread_list {
+  width: calc(100% - 260px);
+  float: left;
+}
+
+.fa {
+  color: #BBBBBB;
+  cursor: pointer;
+}
+
+.threads_container .row:not(.header) {
+  border-bottom: 2px solid #E1E1E1;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  min-height: 50px;
+}
+
+.threads_container .post_dash {
+  display: none;
+}
+
+.threads_container .lock_post {
+  display: none !important;
+}
+
+li.row:nth-child(odd) {
+  background-color: rgb(250, 249, 215) !important;
+}
+
+li.row:nth-child(even) {
+  background-color: #FFFFFF !important;
+}
+
+.thread_list_container .nav {
+  width: 230px;
+  float: left;
+  height: 100%;
+}
+
+.thread_list {
+  border-right: 2px solid #E1E1E1;
+}
+
+.fixedNav {
+  position: fixed;
+  background-color: rgb(248, 249, 252);
+  width: 230px;
+  float: left;
+
+}
+
+.headerBar {
+  height: 35px;
+  width: 100%;
+  background-color: #E1E1E1 !important;
+}
+
+.searchContainer {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.mySearchBar {
+  width: 85%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 0px;
+}
+
+.postPreview {
+  padding: 10px !important;
+  margin: 10px;
+  background-color: rgb(248, 249, 252);
+  border: 2px solid #E1E1E1;
+  border-radius: 4px;
+  float: left;
+  width: calc(100% - 20px);
+}
+
+.actionLinks, .otherLinks {
+  font-size: small;
+  margin-left: 50px !important;
+}
+
+.actionLinks li {
+  margin: 10px;
+}
+
+.otherLinks div {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.subForumLinks {
+  border: 2px solid #E1E1E1;
+  font-size: medium;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subForumLinks div {
+  margin: 10px;
+}
+
+.tile {
+  box-shadow: 0px -1px 23px 0px rgba(0,0,0,0.75);
+  width: calc(100% - 60px);
+  margin: auto;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.page_content {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.loadingBar {
+  width: 100%;
+  background-color: #E1E1E1;
+  height: 40px;
+  text-align: center;
+}

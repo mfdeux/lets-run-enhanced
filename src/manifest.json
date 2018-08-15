@@ -1,0 +1,25 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+  "name": "LetsRun Enhanced",
+  "description": "Enhancements for letsrun.com. This extension is not affiliated with letsrun.com in any way.",
+  "homepage_url": "https://github.com/mfdeux/lets-run-enhanced",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.letsrun.com/forum/*",
+        "https://www.letsrun.com/forum/*"
+      ],
+      "css": [
+        "resources/css/styles.css"
+      ],
+      "js": [
+        "resources/js/vendor/jquery.min.js",
+        "resources/js/vendor/underscore.min.js",
+        "resources/js/main.js",
+        "resources/js/scroller.js"
+      ]
+    }
+  ]
+}
